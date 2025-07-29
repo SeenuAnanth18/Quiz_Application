@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2196f3;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.options label {
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.options label:hover {
+  background-color: #f0f0f0;
+}
+
+.options input[type="radio"] {
+  margin-right: 10px;
+}
+
+.options input[type="radio"]:checked + span {
+  font-weight: bold;
+  color: green;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px 20px;
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover {
+  background-color: #1976d2;
+}
+
+.qnav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qnav button {
+  margin: 3px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.qnav button.answered {
+  background-color: lightgreen;
+  color: white;
+}
+
+.qnav button.visited {
+  background-color: #64b5f6; /* light blue */
+  color: white;
+}
+
+.report-question {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.start-btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #1976d2;
+}

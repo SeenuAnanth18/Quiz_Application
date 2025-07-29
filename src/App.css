@@ -137,3 +137,70 @@ h2 {
 .start-btn:hover {
   background-color: #1976d2;
 }
+
+.report-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.report-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.report-summary p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.score-pass {
+  color: #27ae60; /* green */
+  font-weight: 700;
+}
+
+.score-fail {
+  color: #e74c3c; /* red */
+  font-weight: 700;
+}
+
+.divider {
+  margin: 25px 0;
+  border: none;
+  border-top: 2px solid #ddd;
+}
+
+.report-question {
+  background: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: background-color 0.3s ease;
+}
+
+.report-question.correct {
+  border-left: 6px solid #27ae60;
+}
+
+.report-question.incorrect {
+  border-left: 6px solid #e74c3c;
+  background-color: #fff6f6;
+}
+
+.question-text {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.report-question p {
+  margin: 5px 0;
+}
+

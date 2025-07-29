@@ -15,13 +15,13 @@ This is a simple quiz application built using React for the CausalFunnel Softwar
 
 ## 📺 Preview
 
-Watch the demo video here: [Insert your preview video link here]
+Watch the demo video here: []
 
 ---
 
 ## 🌐 Live App
 
-Visit the live application: [Insert your hosted app link here]
+Visit the live application: []
 
 ---
 
@@ -78,6 +78,4 @@ npm start
 ## 👨‍💻 Author
 
 **Seenu Ananth**  
-[Your LinkedIn Profile Link] *(optional)*
-
 ---

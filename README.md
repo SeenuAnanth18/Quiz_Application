@@ -21,7 +21,7 @@ Watch the demo video here: []
 
 ## 🌐 Live App
 
-Visit the live application: []
+Visit the live application: [https://quiz-application-three-gamma.vercel.app/]
 
 ---
 
